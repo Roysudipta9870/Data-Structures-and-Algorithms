@@ -2,6 +2,7 @@
 using namespace std;
 
 int buyStockAndSell(int arr[], int n){
+// BRUTE FORCE
     //Time Complexity O(n^2)
     // Space Complexity O(1)
     int maxProfit = 0;
@@ -16,6 +17,7 @@ int buyStockAndSell(int arr[], int n){
 }
 
 int buyStockAndSell1(int arr[], int n){
+	//OPTIMAL
     //Time Complexity O(n)
     // Space Complexity O(1)
     int minPrice = INT_MAX;
